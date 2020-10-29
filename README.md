@@ -58,7 +58,7 @@ bash scripts/CIFAR100_20Tasks/trainval_finetune.sh {GPU_ID} {START_IDX} {END_IDX
 The arguments are similar to those in the scripts for training scratch models as described above. 
 
 
-### Conditional Convolution Continual Learning 
+### Conditional convolution continual learning 
 
 Please use the following command to run our continual learning process. 
 
