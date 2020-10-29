@@ -21,7 +21,7 @@ Conditional operations have received much attention in recent deep learning stud
 
 ### Prepare the data 
 
-For the CIFAR-100 Twenty Tasks experiment, you can download the [CIFAR-100 dataset](https://www.cs.toronto.edu/~kriz/cifar.html) and split the images into 20 tasks based on their super classes using the [cifar2png](https://github.com/knjcode/cifar2png) tool. Or you can just download the converted version of our CIFAR100 from [here](https://drive.google.com/file/d/1eo2RhMmhxzUNOZa0Z7jy7y4lOn3lqddU/view?usp=sharing). Unzip the compressed file, rename the extracted folder as `CIFAR100_20Tasks/` and place it under `data/`. You can see our train, validation and test splits for each task in `splits/CIFAR100_20Tasks/` and the json files inside reveal the directory structure that our program uses to load the data. 
+For the CIFAR-100 Twenty Tasks experiment, you can download the [CIFAR-100 dataset](https://www.cs.toronto.edu/~kriz/cifar.html) and split the images into 20 tasks based on their super classes using the [cifar2png](https://github.com/knjcode/cifar2png) tool. Or you can just download the converted version of our CIFAR-100 [here](https://drive.google.com/file/d/1eo2RhMmhxzUNOZa0Z7jy7y4lOn3lqddU/view?usp=sharing). Unzip the compressed file, rename the extracted folder as `CIFAR100_20Tasks/` and place it under `data/`. You can see our training, validation and testing splits for each task in `splits/CIFAR100_20Tasks/` and the json files inside reveal the directory structure that our program uses to load the data. 
 
 For the ImageNet-50 Five Tasks experiment, download the the ImageNet dataset from its [official website](http://image-net.org/download) and place the downloaded images under `data/`. Similarly, please see the json files in `splits/ImageNet50_5Tasks/` to adjust the directory structure so that our program can load the data correctly. 
 
@@ -34,7 +34,7 @@ Please use the following command to train the model for each task from scratch. 
 bash scripts/{EXP_NAME}/trainval_baseline.sh {GPU_ID} {START_IDX} {END_IDX} {BACKBONE}
 ```
 
-The {EXP_NAME} should be CIFAR100_20Tasks or ImageNet50_5Tasks, and the {BACKBONE} should be Conv4 or ResNet18. If you want to use multi-gpu training, simply assign multiple gpu ids in {GPU_ID}. This command will train scratch models for task index range from {START_IDX} to {END_IDX} (inclusive). Examples of using this command can be seen as follows. 
+The {EXP_NAME} should be CIFAR100_20Tasks or ImageNet50_5Tasks, and the {BACKBONE} should be Conv4 or ResNet18. If you want to use multi-gpu training, simply assign multiple gpu ids in {GPU_ID}. This command will train scratch models for task indices range from {START_IDX} to {END_IDX} (inclusive). Examples of using this command can be seen as follows. 
 
 ```
 bash scripts/CIFAR100_20Tasks/trainval_baseline.sh 0,1,2,3 1 20 Conv4 
@@ -55,7 +55,7 @@ Please use the following command to, for each task, finetune models from previou
 bash scripts/CIFAR100_20Tasks/trainval_finetune.sh {GPU_ID} {START_IDX} {END_IDX} {BACKBONE}
 ```
 
-The arguments are similar to those in the scripts for training scratch models as described above. 
+The arguments are similar to those in the script for training scratch models as described above. 
 
 
 ### Conditional convolution continual learning 
