@@ -1,6 +1,6 @@
 # CondConvContinual
 
-This is an official Pytorch implementation of Extending Conditional Convolution Structures for Enhancing Multitasking Continual Learning
+This is an official Pytorch implementation of [Extending Conditional Convolution Structures for Enhancing Multitasking Continual Learning](http://www.apsipa.org/proceedings/2020/pdfs/0001605.pdf)
 
 Created by Cheng-Hao Tu, Cheng-En Wu and Chu-Song Chen 
 
