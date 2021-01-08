@@ -6,10 +6,9 @@ Created by Cheng-Hao Tu, Cheng-En Wu and Chu-Song Chen
 
 The code is released for academic research use only. For commercial use, please contact Prof. Chu-Song Chen(chusong@csie.ntu.edu.tw).
 
+## Benchmarks
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/extending-conditional-convolution-structures/continual-learning-on-imagenet-50-5-tasks)](https://paperswithcode.com/sota/continual-learning-on-imagenet-50-5-tasks?p=extending-conditional-convolution-structures)
-
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/extending-conditional-convolution-structures/continual-learning-on-cifar100-20-tasks)](https://paperswithcode.com/sota/continual-learning-on-cifar100-20-tasks?p=extending-conditional-convolution-structures)
-
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/extending-conditional-convolution-structures/continual-learning-on-flowers-fine-grained-6)](https://paperswithcode.com/sota/continual-learning-on-flowers-fine-grained-6?p=extending-conditional-convolution-structures)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/extending-conditional-convolution-structures/continual-learning-on-imagenet-fine-grained-6)](https://paperswithcode.com/sota/continual-learning-on-imagenet-fine-grained-6?p=extending-conditional-convolution-structures)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/extending-conditional-convolution-structures/continual-learning-on-sketch-fine-grained-6)](https://paperswithcode.com/sota/continual-learning-on-sketch-fine-grained-6?p=extending-conditional-convolution-structures)
