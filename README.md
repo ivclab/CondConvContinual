@@ -114,7 +114,14 @@ Note that the above two commands run `evaluate_continual_with_boundary.py` and `
 
 ## Citation 
 
-
+    @inproceedings{tu2020extending,
+    title={Extending Conditional Convolution Structures For Enhancing Multitasking Continual Learning},
+    author={Tu, Cheng-Hao and Wu, Cheng-En and Chen, Chu-Song},
+    booktitle={2020 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)},
+    pages={1605--1610},
+    year={2020},
+    organization={IEEE}
+    }
 
 ## Contact 
-Please feel free to leave suggestions or comments to [Cheng-Hao Tu](andytu28@iis.sinica.edu.tw), [Cheng-En Wu](chengen@iis.sinica.edu.tw), [Chu-Song Chen](song@iis.sinica.edu.tw)
+Please feel free to leave suggestions or comments to [Cheng-Hao Tu](andytu28@iis.sinica.edu.tw), [Cheng-En Wu](chengen@iis.sinica.edu.tw), [Chu-Song Chen](chusong@iis.sinica.edu.tw)
