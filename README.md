@@ -4,7 +4,7 @@ This is an official Pytorch implementation of [Extending Conditional Convolution
 
 Created by Cheng-Hao Tu, Cheng-En Wu and Chu-Song Chen
 
-The code is released for academic research use only. For commercial use, please contact [Prof. Chu-Song Chen](chusong@csie.ntu.edu.tw).
+The code is released for academic research use only. For commercial use, please contact Prof. Chu-Song Chen(chusong@csie.ntu.edu.tw).
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/extending-conditional-convolution-structures/continual-learning-on-imagenet-50-5-tasks)](https://paperswithcode.com/sota/continual-learning-on-imagenet-50-5-tasks?p=extending-conditional-convolution-structures)
 
@@ -126,4 +126,4 @@ Note that the above two commands run `evaluate_continual_with_boundary.py` and `
     }
 
 ## Contact 
-Please feel free to leave suggestions or comments to [Cheng-Hao Tu](andytu28@iis.sinica.edu.tw), [Cheng-En Wu](chengen@iis.sinica.edu.tw), [Chu-Song Chen](chusong@csie.ntu.edu.tw)
+Please feel free to leave suggestions or comments to Cheng-Hao Tu(andytu28@iis.sinica.edu.tw), Cheng-En Wu(chengen@iis.sinica.edu.tw, Chu-Song Chen(chusong@csie.ntu.edu.tw)
